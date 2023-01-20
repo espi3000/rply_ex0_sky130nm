@@ -38,9 +38,9 @@ lab=IBPS_4U}
 N -120 -700 -60 -700 {
 lab=IBPS_4U}
 N 60 -700 60 -590 {
-lab=IBPS_20U}
+lab=IBNS_20U}
 N 60 -700 120 -700 {
-lab=IBPS_20U}
+lab=IBNS_20U}
 N 60 -530 60 -510 {
 lab=VSS}
 N -60 -530 -60 -510 {
@@ -58,8 +58,8 @@ user="wulff"
 company="wulff"}
 C {devices/ipin.sym} -120 -420 0 0 {name=p2 lab=VSS}
 C {devices/ipin.sym} -120 -700 0 0 {name=p4 lab=IBPS_4U}
-C {devices/ipin.sym} 120 -700 0 1 {name=p5 lab=IBPS_20U}
-C {sky130_fd_pr/nfet_01v8.sym} 40 -560 0 0 {name=M2
+C {devices/ipin.sym} 120 -700 0 1 {name=p5 lab=IBNS_20U}
+C {sky130_fd_pr/nfet_01v8.sym} 40 -560 0 0 {name=M2[4:0]
 L=0.36
 W=3.6
 nf=2 
