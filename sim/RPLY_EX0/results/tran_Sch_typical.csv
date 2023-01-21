@@ -1,2 +1,2 @@
-,ibns_20u,vgs_m1,name,type,time,OK
-0,21.00343,0.6734935,tran_SchGtAttTtVt,Sch,Fri Jan 20 14:44:38 2023,True
+,ibns_20u,ibns_20u_9n,vgs_m1,ibn_settl_err,name,type,time,OK
+0,21.00343,21.0031,0.6734935,0.3300000000027565,tran_SchGtAttTtVt,Sch,Sat Jan 21 09:56:23 2023,True

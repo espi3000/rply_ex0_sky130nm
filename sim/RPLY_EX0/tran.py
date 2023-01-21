@@ -3,15 +3,13 @@ import pandas as pd
 import yaml
 
 def main(name):
-  # Delete next line if you want to use python post processing
-  return
   yamlfile = name + ".yaml"
 
   # Read result yaml file
   with open(yamlfile) as fi:
     obj = yaml.safe_load(fi)
 
-  # Do something to parameters
+  obj["ibn_settl_err"] = obj["ibns_20u"] - obj["ibns_20u_9n"]
 
   # Save new yaml file
   with open(yamlfile,"w") as fo:

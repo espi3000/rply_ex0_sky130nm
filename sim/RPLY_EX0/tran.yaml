@@ -1,6 +1,7 @@
 ibn:
   src:
     - ibns_20u
+    - ibns_20u_9n
   name: Output current
   min: -20%
   typ: 20
@@ -19,3 +20,14 @@ vgs:
   scale: 1
   digits: 3
   unit: V
+
+err:
+  src:
+    - ibn_settl_err
+  name: Current settling error
+  typ: 0
+  min: -2
+  max: 2
+  scale: 1e9
+  digits: 3
+  unit: nA
