@@ -61,7 +61,7 @@ C {devices/ipin.sym} -120 -700 0 0 {name=p4 lab=IBPS_4U}
 C {devices/ipin.sym} 120 -700 0 1 {name=p5 lab=IBNS_20U}
 C {sky130_fd_pr/nfet_01v8.sym} 40 -560 0 0 {name=M2[4:0]
 L=0.36
-W=3.6
+W=7.2
 nf=2 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -75,7 +75,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} -40 -560 0 1 {name=M1
 L=0.36
-W=3.6
+W=7.2
 nf=2 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

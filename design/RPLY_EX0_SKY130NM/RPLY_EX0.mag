@@ -1,0 +1,95 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1674560544
+<< locali >>
+rect -2640 480 -2520 900
+rect -2280 460 -2160 880
+rect -2040 460 -1920 880
+rect -1680 460 -1560 880
+rect -1440 460 -1320 880
+rect -1080 460 -960 880
+rect -840 460 -720 880
+rect -480 460 -360 880
+rect -240 460 -140 880
+rect 140 460 240 880
+rect 360 460 460 880
+rect 740 460 840 880
+rect -2620 100 -2180 160
+rect -2020 100 -1580 160
+rect -1420 100 -980 160
+rect -820 100 -380 160
+rect -220 100 220 140
+rect 380 100 820 140
+rect -2700 0 900 100
+<< metal1 >>
+rect -2510 1060 700 1120
+rect -1230 960 -1170 1060
+rect -2450 710 -2360 730
+rect -2450 640 -2440 710
+rect -2370 640 -2360 710
+rect -2450 620 -2360 640
+rect -1850 710 -1760 730
+rect -1850 640 -1840 710
+rect -1770 640 -1760 710
+rect -1850 620 -1760 640
+rect -650 710 -560 730
+rect -650 640 -640 710
+rect -570 640 -560 710
+rect -650 620 -560 640
+rect -50 710 40 730
+rect -50 640 -40 710
+rect 30 640 40 710
+rect -50 620 40 640
+rect 550 710 640 730
+rect 550 640 560 710
+rect 630 640 640 710
+rect 550 620 640 640
+rect -2510 220 700 280
+<< via1 >>
+rect -2440 640 -2370 710
+rect -1840 640 -1770 710
+rect -640 640 -570 710
+rect -40 640 30 710
+rect 560 640 630 710
+<< metal2 >>
+rect -2450 710 640 730
+rect -2450 640 -2440 710
+rect -2370 640 -1840 710
+rect -1770 640 -640 710
+rect -570 640 -40 710
+rect 30 640 560 710
+rect 630 640 640 710
+rect -2450 620 640 640
+use sky130_fd_pr__nfet_01v8_5CE34N  M2
+timestamp 1674555618
+transform 1 0 597 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_0
+timestamp 1674555618
+transform 1 0 -2403 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_1
+timestamp 1674555618
+transform 1 0 -1803 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_2
+timestamp 1674555618
+transform 1 0 -1203 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_3
+timestamp 1674555618
+transform 1 0 -603 0 1 670
+box -297 -570 297 570
+use sky130_fd_pr__nfet_01v8_5CE34N  sky130_fd_pr__nfet_01v8_5CE34N_4
+timestamp 1674555618
+transform 1 0 -3 0 1 670
+box -297 -570 297 570
+<< labels >>
+flabel metal2 -1560 620 -1440 720 0 FreeSans 480 0 0 0 IBNS_20U
+port 3 nsew
+flabel metal1 -1560 1040 -1440 1140 0 FreeSans 480 0 0 0 IBPS_4U
+port 2 nsew
+flabel locali -1260 20 -1140 120 0 FreeSans 480 0 0 0 VSS
+port 1 nsew
+<< end >>
